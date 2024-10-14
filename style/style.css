@@ -10,7 +10,7 @@ h1 	{
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
-	background-image: url('images/covergaruda.jpg');
+	background-image: url('../images/latar.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
