@@ -16,6 +16,7 @@ h1 	{
 	background-position: center;
 	background-size: 100% 91%;
 	margin-top: -50px;
+	flex-wrap: wrap;
 	}
 .gif.garuda{
 	position: fixed; align: right
