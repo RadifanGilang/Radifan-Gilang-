@@ -1,0 +1,22 @@
+.h1{
+    font-size: 50em;
+    text-align: justify;
+}
+.navbar{
+    font-size: 16px;
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(182, 46, 46);
+    margin: 5px;
+    border-radius: 5px;
+    border-right: 4rem;
+    display: grid;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 1rem 2rem 50rem 2.9rem;
+    gap: 1rem;
+    position: fixed;
+}
+

@@ -26,3 +26,7 @@ table, th, td {
   border-collapse: collapse;
   border-style:solid
 }
+
+#radipan {
+	font-size: 50em;
+}
