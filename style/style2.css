@@ -1,22 +1,103 @@
-.h1{
-    font-size: 50em;
-    text-align: justify;
-}
-.navbar{
-    font-size: 16px;
-    color: aliceblue;
+h1{
     text-align: center;
-    background-color: rgb(182, 46, 46);
-    margin: 5px;
-    border-radius: 5px;
-    border-right: 4rem;
-    display: grid;
-    float: left;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    padding: 1rem 2rem 50rem 2.9rem;
-    gap: 1rem;
-    position: fixed;
+    font-size: 50px;
 }
 
+.background{
+    min-height: 100vh;
+	display: flex;
+	align-items: center;
+	background-image: url('../images/latar.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-size: 100% 91%;
+	margin-top: 10px;
+	flex-wrap: wrap;
+}
+
+.navbar{
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 5px 2%;
+  background-color: rgb(214, 214, 214);
+  border-bottom: 1px solid var(--rg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.navbar .head h1 {
+    font-size: 2rem;
+}
+
+.background-p{
+    text-align: right;
+}
+
+.table tr th {
+    background-color: rgb(247, 115, 115);
+    height: 30px;
+    width: 50rem;
+}
+
+.table tr td {
+    border: 1px solid black;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.table {
+    text-align: center;
+    align-items: center;
+    padding: 10px -100px;
+    margin: 0 20rem;
+}
+
+
+.gambar1{
+    float: left;
+    padding: 1rem;
+}
+
+.gambar1 a:hover{
+    transform: scale(1,1);
+}
+
+.gambar2{
+    float: left;
+}
+
+.gambar3{
+    float: left;
+}
+.spek h4{
+    margin-right: 10px;
+}
+
+audio{
+    align-items: center;
+}
+
+footer{
+    background-color: rgba(190, 148, 148, 0.904);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    padding-top: 8px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    height: 150px;
+    border: 0;
+}
+
+p{
+    float: right;
+    padding-right: 4rem;
+    padding-top: 8px;
+    font-size: 120%;
+    text-align: right;
+}

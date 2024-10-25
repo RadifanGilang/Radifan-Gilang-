@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(/images/run.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header ul{
+    background-color: #f1e3e2;
+}
+nav img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+nav{
+    display: flex;
+    padding: 1% 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8 px 19 px;
+    position: relative;
+}  
+
+.nav-links ul  a{
+    text-decoration: none;
+    font-size: 13px;
+} 
+.nav-links ul li::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+}
+
+.text-box{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 62px;
+}
+
+.text-box p{
+    font-size: -30 px;
+}
+/*----BERANDA----*/
+.BERANDA{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+}
+.BERANDA p{
+    font-family: Arial, Helvetica, sans-serif\;;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 22px;
+    padding: 10px;
+}
+
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.row{
+    margin-top: 1%;
+    /*display: flex;*/
+    justify-content: space-between;    
+}
+
+.BERANDA-col{
+    flex-basis: 31%;
+    background: rgb(174, 27, 27);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.BERANDA-col:hover{
+    box-shadow: 0 0 30px 0px rgba(0,0,0,0.2);
+
+}
