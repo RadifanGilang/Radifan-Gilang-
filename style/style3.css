@@ -1,8 +1,10 @@
+/*Teks Heading 1*/
 h1{
     text-align: center;
     font-size: 50px;
 }
 
+/*latar belakang*/
 .background{
     min-height: 100vh;
 	display: flex;
@@ -16,6 +18,18 @@ h1{
 	flex-wrap: wrap;
 }
 
+/*Teks Di dlm Background*/
+.background p{
+    color: black;
+    padding: 20px 25px;
+    border: 7px solid rgb(218, 0, 0);
+    font-size: 20px;
+}
+
+.home p{
+    margin-bottom: 80px;
+}
+/*navbar atas*/
 .navbar{
   justify-content: space-between;
   display: flex;
@@ -38,6 +52,7 @@ h1{
     text-align: right;
 }
 
+/*Tabel*/
 .table tr th {
     background-color: rgb(247, 115, 115);
     height: 30px;
@@ -58,7 +73,7 @@ h1{
     margin: 0 20rem;
 }
 
-
+/*Gambar Konten*/
 .gambar1{
     float: left;
     padding: 1rem;
@@ -83,6 +98,7 @@ audio{
     align-items: center;
 }
 
+/*bagian navbar bawah*/
 footer{
     background-color: rgba(190, 148, 148, 0.904);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
