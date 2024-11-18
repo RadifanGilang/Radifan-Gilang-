@@ -136,7 +136,7 @@ input{
 }
 
 #check:checked~section{
-    margin-left: 250px;
+    margin-left: 0px;
 }
 input:checked ~ .toggle .top_line{
     left: 2px;
