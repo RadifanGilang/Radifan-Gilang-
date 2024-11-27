@@ -376,7 +376,7 @@ h3{
     flex-direction: row;
     align-items: center;
     background: linear-gradient(180deg, rgb(236,213,232) 0%,
-    rgb(50,112, 118)100%);
+    rgb(0, 0, 0)100%);
 }
 
 .PU{
